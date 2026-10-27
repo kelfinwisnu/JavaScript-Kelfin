@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Web Kelfin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Web Kelfin</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="contact.html">About & Contact</a></li>
+            </ul>
+
+
+
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span id="mode-label">Mode Terang</span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Selamat Datang di Halaman Utama</h2>
+            <p>Nikmati pemutar musik sederhana di bawah ini.</p>
+
+            <div class="music-card">
+                <img src="cover.jpg" alt="Cover Music" class="music-cover">
+                <h3>Pyrite</h3>
+                <audio controls>
+                    <source src="pyrite.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
